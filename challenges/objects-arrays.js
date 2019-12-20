@@ -79,15 +79,19 @@ const graduates = [
 /* Request 1: Create a new array called universities that contains all the universities in the graduates array. This will be an array of strings.
 
 Once you have the new array created, sort the universities alphabetically and log the result. */
-function getUniversities(school){
-  const universities = [];
-  school.forEach(function(graduates,){
-    universities.push(graduates.university);
-  })
- 
-  console.log(universities);
-}
 
+  // const universities = [];
+  // universities.push(graduates.university);
+  // console.log(universities);
+
+function getUniversites(names){
+  const universities =[];
+  names.forEach(function(graduates){
+    universities.push(graduatues.university);
+    
+  });
+  console.log(universities) ;
+}
 
 
 
